@@ -21,7 +21,7 @@ export function App() {
   const [selectedGenreId, setSelectedGenreId] = useState(1);
 
 
-  function handleClickButton(id: number) {
+  function handleClickButton<GenreResponseProps>(id: number) {
     setSelectedGenreId(id);
   }
 
